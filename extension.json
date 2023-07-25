@@ -1,0 +1,13 @@
+{
+  "name": "ISO7816_Hla",
+  "apiVersion": "1.0.0",
+  "author": "Romain Cognasse",
+  "version": "0.0.1",
+  "description": "",
+  "extensions": {
+    "ISO7816_Hla": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
