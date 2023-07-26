@@ -10,4 +10,4 @@
 5. Create a Github release
 6. Debug your hardware like you've never done before :)
 
-  
+test(Constants.py)
