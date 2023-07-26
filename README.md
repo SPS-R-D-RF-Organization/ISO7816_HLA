@@ -1,13 +1,8 @@
 
   # ISO7816_Hla
-  
-## Getting started
 
-1. Build your extension by updating the Python files for your needs
-2. Create a public Github repo and push your code 
-3. Update this README
-4. Open the Logic app and publish your extension
-5. Create a Github release
-6. Debug your hardware like you've never done before :)
+This project is an extension for the software Saleae Logic 2. It allows you to decode messages exchanged between a smartcard and its reader, using the ISO7816.
+This extension can be used with T=0 and T=1 protocols, but is not able to handle the frequency changes that occur after a PPS exchange. Due to a technical limitation, it can't process the last APDU message in a record.
 
-test(Constants.py)
+[Detailed explanations here (French).](https://D%C3%A9coder%20iso7816%20avec%20Saleae.pdf)
+
